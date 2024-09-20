@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sidebar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="sidebar">
+    <div class="sidebar-top-wrapper">
+      <div class="sidebar-top">
+        <a href="#" class="logo__wrapper">
+          <img 
+            src="assets/astra.svg" alt="Logo" class="logo-small"
+          >
+          <span class="hide">Astra</span>
+        </a>
+      </div>
+      <div class="expand-btn"><!-- expand btn --></div>
+    </div>
+    <div class="search__wrapper">
+      <!-- svg search -->
+      <input type="search" placeholder="Search for anything...">
+    </div>
+    <div class="sidebar-links">
+      <h2>Menu</h2>
+      <ul>
+        <li>
+          <a href="#dashboard" title="Dashboard" class="tooltip">
+            <!-- svg -->
+            <span class="link hide">Dashboard</span>
+            <span class="tooltip__content">Dashboard</span>
+          </a>
+        </li>
+    </div>
+    <div class="sidebar-links bottom-links">
+      <h2>Configuração</h2>
+      <ul>
+        <li>
+          <a href="#settings" title="Settings" class="tooltip">
+            <!-- svg -->
+            <span class="link hide">Configuração</span>
+            <span class="tooltip__content">Configuração</span>
+          </a>
+        </li>
+        <!--  -->
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="sidebar__profile">
+      <div class="avatar__wrapper">
+        <img class="avatar" src="assets/profile.png" alt="Guilherme Picture">
+        <div class="online__status"></div>
+      </div>
+      <section class="avatar__name hide">
+        <div class="user-name">Guilherme Santos</div>
+        <div class="email">guilherme@santos</div>
+      </section>
+      <a href="#logout" class="logout">
+        <!-- logout -->
+      </a>
+    </div>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+</body>
+
+</html>
